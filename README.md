@@ -1,0 +1,1 @@
+The is a demo for a MSAL authentication. Only important files are app.module.ts, environment.ts, appsettings.json and startup.cs

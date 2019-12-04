@@ -1,0 +1,6 @@
+<h1>VALUES Logged: {{ loggedIn }}</h1>
+<button *ngIf="!loggedIn" (click)="login()">Login</button>
+<button *ngIf="loggedIn" (click)="logout()">Logout</button>
+<div *ngFor="let val of values">
+  {{ val }}
+</div>
